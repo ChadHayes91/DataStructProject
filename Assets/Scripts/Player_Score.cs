@@ -26,12 +26,11 @@ public class Player_Score : MonoBehaviour {
         if (trig.gameObject.name == "EndLevel")
         {
             CountScore();
-            gameObject.GetComponent<Player_Death>().hasDied = true;
         }
         if (trig.gameObject.tag == "Asset")
         {
             playerScore += 30;
-            Destroy(trig.gameObject);   
+            GameObject.Destroy(trig.gameObject);
         }
         if (trig.gameObject.tag == "Enemy")
         {

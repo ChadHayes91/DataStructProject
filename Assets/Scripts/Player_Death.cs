@@ -24,6 +24,6 @@ public class Player_Death : MonoBehaviour {
     }
     void Die()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
     }
 }
