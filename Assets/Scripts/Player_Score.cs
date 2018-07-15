@@ -42,4 +42,6 @@ public class Player_Score : MonoBehaviour {
     {
         playerScore += (int)(timeLeft * 10);
     }
+
+
 }

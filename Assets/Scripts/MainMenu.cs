@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour {
 
     public void NewGame()
     {
+        Player_Score.playerScore = 0; //Resets game score.
         PlayerPrefs.SetInt(level1Tag, 1);
         PlayerPrefs.SetInt(level2Tag, 0);
         PlayerPrefs.SetInt(level3Tag, 0);

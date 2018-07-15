@@ -59,4 +59,9 @@ public class RegisterScore : MonoBehaviour {
         submitButton.interactable = (nameField.text.Length <= 10);
     }
 
+    public void ResetScore()
+    {
+        Player_Score.playerScore = 0; //Resets game score.
+    }
+
 }
